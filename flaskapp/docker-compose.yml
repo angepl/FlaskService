@@ -1,0 +1,25 @@
+version: '3' 
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb 
+    restart: always 
+    volumes: 
+    - ./mongodb/data:/data/db
+    ports: 
+    - 27017:27017 
+    
+  flask-service:
+    build:
+        context: ./app #directory where Dockerfile is placed 
+        dockerfile: Dockerfile
+    container_name: flask
+    image: flask
+    restart: always 
+    environment:
+      - "MONGO_HOSTNAME=mongodb" 
+    depends_on:
+      - mongodb
+    ports: 
+      - 5000:5000
+    
