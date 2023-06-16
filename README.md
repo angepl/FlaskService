@@ -3,6 +3,24 @@
 ### Πλατανάς Ευάγγελος - Ε20132
 ### Πληροφοριακά Συστήματα -Υποχρεωτική Εργασία 2023
 
+##Δημιουργία περιβάλλοντος
+Για τη δημιουργία του περιβάλλοντος απαιτείται η λήψη του φακέλου flaskapp ο οποίος περιέχει ιεραρχικά τα παρακάτω αρχεία:
+-flaskapp
+  -docker-compose.yml
+  -app
+    -Dockerfile
+    -digitalAirlines.py
+
+Σε ένα terminal εκτελούμε τις εντολές:
+1. sudo service docker start
+2. sudo docker-compose build
+3. sudo docker-compose up -d
+4. ????????????Πηγαίνουμε στον φάκελο app και εκτελούμε python digitalAirlines.py 
+
+Με αυτές τις εντολές θα δημιουργηθεί ένα container στο οποίο θα τρέξει το flask service, ένα container που θα τρέξει η βάση δεδομένων mongoDB και θα γίνει η σύνδεση μεταξύ τους.
+
+
+
 Υποθέτουμε ότι βρισκόμαστε στον /localhost:5000 στο Postman.
 
 1. Εγγραφή στο σύστημα
