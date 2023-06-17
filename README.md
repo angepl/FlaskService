@@ -6,11 +6,11 @@
 ## Δημιουργία Περιβάλλοντος
 Για τη δημιουργία του περιβάλλοντος απαιτείται η λήψη του φακέλου flaskapp ο οποίος περιέχει ιεραρχικά τα παρακάτω αρχεία:
 
--flaskapp
-  -docker-compose.yml
-  -app
-  -Dockerfile
-  -digitalAirlines.py
+- flaskapp
+  - docker-compose.yml
+  - app
+    - Dockerfile
+    - digitalAirlines.py
 
 Σε ένα terminal εκτελούμε τις εντολές:
 1. sudo service docker start
