@@ -13,10 +13,10 @@
     - digitalAirlines.py
 
 Σε ένα terminal εκτελούμε τις εντολές:
-1. 'sudo service docker start'
-2. sudo docker-compose build
-3. sudo docker-compose up -d
-4. ????????????Πηγαίνουμε στον φάκελο app και εκτελούμε python digitalAirlines.py 
+1. `sudo service docker start`
+2. `sudo docker-compose build`
+3. `sudo docker-compose up -d`
+4. ????????????Πηγαίνουμε στον φάκελο app και εκτελούμε `python digitalAirlines.py` 
 
 Με αυτές τις εντολές θα δημιουργηθεί ένα container στο οποίο θα τρέξει το flask service, ένα container που θα τρέξει η βάση δεδομένων mongoDB και θα γίνει η σύνδεση μεταξύ τους.
 
