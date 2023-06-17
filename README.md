@@ -8,8 +8,8 @@
 -flaskapp
   -docker-compose.yml
   -app
-    -Dockerfile
-    -digitalAirlines.py
+  -Dockerfile
+  -digitalAirlines.py
 
 Σε ένα terminal εκτελούμε τις εντολές:
 1. sudo service docker start
