@@ -47,7 +47,7 @@
   
   
 ### 4. Προσθήκη πτήσης στη βάση δεδομένων (μόνο για τους διαχειριστές)
-Η προσθήκη μιας πτήσης γίνεται μέσω του endpoint /insertFlight?token=<token> (methods=['POST']). Απαιτείται η εισαγωγή ενός json στο body του μηνύματος της μορφής `{"from": "<from>", "to": "<to>", "date": "<dd/mm/yyyy>", "businessTickets": <πλήθος business εισητηρίων>, "businessPrice": <τιμή business εισητηρίων>, "economyTickets": <πλήθος economy εισητηρίων>, "economyPrice": <τιμή economy εισητηρίων>}`. **Τα πεδία *businessTickets*, *businessPrice*, *economyTickets* και *economyPrice* πρέπει να έχουν μια αριθμητική τιμή (όχι string).**
+Η προσθήκη μιας πτήσης γίνεται μέσω του endpoint /insertFlight?token= <token> (methods=['POST']). Απαιτείται η εισαγωγή ενός json στο body του μηνύματος της μορφής `{"from": "<from>", "to": "<to>", "date": "<dd/mm/yyyy>", "businessTickets": <πλήθος business εισητηρίων>, "businessPrice": <τιμή business εισητηρίων>, "economyTickets": <πλήθος economy εισητηρίων>, "economyPrice": <τιμή economy εισητηρίων>}`. **Τα πεδία *businessTickets*, *businessPrice*, *economyTickets* και *economyPrice* πρέπει να έχουν μια αριθμητική τιμή (όχι string).**
 
   
 ### 5. Ενημέρωση τιμής πτήσης (μόνο για τους διαχειριστές)
