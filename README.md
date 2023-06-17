@@ -61,7 +61,7 @@
 
 ### 7. Κράτηση εισητηρίου (μόνο για απλούς χρήστες)
 
-Η κράτηση εισητηρίου γίνεται μέσω του endpoint /ticketBooking?token=*token* (methods=['POST']). Απαιτείται ένα json της μορφής `{"flightId": "<flightId>", "name": "<name>", "surname": "<surname>", "passport": "<passport>", "dateOfBirth": "<dd/mm/yyyy>", "email": "<email>", "ticketType": "<ticketType>"}`. Το πεδίο *flightId* αφορά το μοναδικό _id της κράτησης στη βάση δεδομένων. **Το *ticketType* πρέπει να έχει μια από τις τιμές *economy* ή *business*, ενώ το email θα πρέπει να αντιστοιχεί στον χρήστη του οποίου το token χρησιμοποιήθηκε ως argument στο URL.**
+Η κράτηση εισητηρίου γίνεται μέσω του endpoint /ticketBooking?token=*token* (methods=['POST']). Απαιτείται ένα json της μορφής `{"flightId": "<flightId>", "name": "<name>", "surname": "<surname>", "passport": "<passport>", "dateOfBirth": "<dd/mm/yyyy>", "email": "<email>", "ticketType": "<ticketType>"}`. Το πεδίο *flightId* αφορά το μοναδικό _id της πτήσης στη βάση δεδομένων. **Το *ticketType* πρέπει να έχει μια από τις τιμές *economy* ή *business*, ενώ το email θα πρέπει να αντιστοιχεί στον χρήστη του οποίου το token χρησιμοποιήθηκε ως argument στο URL.**
 
 ### 8. Εμφάνιση κρατήσεων χρήστη (μόνο για απλούς χρήστες)
 
