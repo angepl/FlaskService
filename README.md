@@ -13,7 +13,7 @@
     - digitalAirlines.py
 
 Σε ένα terminal εκτελούμε τις εντολές:
-1. sudo service docker start
+1. 'sudo service docker start'
 2. sudo docker-compose build
 3. sudo docker-compose up -d
 4. ????????????Πηγαίνουμε στον φάκελο app και εκτελούμε python digitalAirlines.py 
