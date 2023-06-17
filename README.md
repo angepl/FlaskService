@@ -12,7 +12,7 @@
     - Dockerfile
     - digitalAirlines.py
 
-Σε ένα terminal εκτελούμε τις εντολές:
+Σε ένα terminal εκτελούμε τις εντολές (βρισκόμενοι στον φάκελο flaskapp):
 1. `sudo service docker start`
 2. `sudo docker-compose build`
 3. `sudo docker-compose up -d`
