@@ -35,7 +35,7 @@
   
 Κατά την εγγραφή ενός διαχειριστή, το πεδίο *role* με τιμή *admin* είναι αυτό που τον καθιστά διαχειριστή. Για τους απλούς χρήστες η εγγραφή στο σύστημα γίνεται μέσω του endpoint /newRegistry (methods=['POST']). Απαιτείται η εισαγωγή ενός json στο body του μηνύματος, της μορφής `{"name":"<όνομα>", "surname":"<επώνυμο>", "email":"<email>", "password":"<κωδικός>", "dateOfBirth":"<dd/mm/yyyy>", "country":"<χώρα>", "passport":"<διαβατήριο>"}`. Το πεδίο *role* παίρνει αυτόματα τη τιμή *simpleUser* που καθιστά τον συγκεκριμένο χρήστη απλό χρήστη. **To email θα πρέπει να είναι μοναδικό!**
 
-![Παράδειγμα]("images/newRegistry.png")
+![Παράδειγμα](https://github.com/angepl/YpoxreotikiErgasia23_E20132_Platanas_Evangelos/assets/121619065/ee6fe536-fc30-4c10-aff8-25d8bd22b916)
 
   
 ### 2. Είσοδος στο σύστημα
