@@ -8,7 +8,7 @@ from functools import wraps
 from bson.objectid import ObjectId
 
 #Connect to our local MongoDB
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://mongodb:27017/')
 
 #Choose database and collections
 db = client['DigitalAirlines']
@@ -509,4 +509,4 @@ def show_flight_details():
 
 #Run Flask App
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True. host="0.0.0.0")
