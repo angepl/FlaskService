@@ -1,4 +1,4 @@
-# YpoxreotikiErgasia23_E20132_Platanas_Evangelos
+# FlaskService
 
 ##### Πλατανάς Ευάγγελος - Ε20132
 ### Πληροφοριακά Συστήματα -Υποχρεωτική Εργασία 2023
